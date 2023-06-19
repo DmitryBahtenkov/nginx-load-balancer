@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NginxTest", "NginxTest\NginxTest.csproj", "{5FBE83A3-FB21-4A43-A87F-C6856F97E6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NginxTest2", "NginxTest2\NginxTest2.csproj", "{AF660BD7-39D9-43B8-AD9D-D123F2D48035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripting", "Scripting\Scripting.csproj", "{2EE2EFC2-D7A5-4E1C-AC06-57023216E472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBE83A3-FB21-4A43-A87F-C6856F97E6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBE83A3-FB21-4A43-A87F-C6856F97E6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBE83A3-FB21-4A43-A87F-C6856F97E6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBE83A3-FB21-4A43-A87F-C6856F97E6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF660BD7-39D9-43B8-AD9D-D123F2D48035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF660BD7-39D9-43B8-AD9D-D123F2D48035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF660BD7-39D9-43B8-AD9D-D123F2D48035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF660BD7-39D9-43B8-AD9D-D123F2D48035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE2EFC2-D7A5-4E1C-AC06-57023216E472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE2EFC2-D7A5-4E1C-AC06-57023216E472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE2EFC2-D7A5-4E1C-AC06-57023216E472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE2EFC2-D7A5-4E1C-AC06-57023216E472}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

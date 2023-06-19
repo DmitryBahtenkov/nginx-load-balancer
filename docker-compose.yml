@@ -1,0 +1,23 @@
+﻿version: '3'
+services:
+  app1:
+    build:
+      context: .
+      dockerfile: 1.Dockerfile
+    ports:
+      - "5001:80"
+    hostname: app1.f
+  app2:
+    build: 
+      context: .
+      dockerfile: 2.Dockerfile
+    ports:
+      - "5002:80"
+    hostname: app2.f
+  nginx:
+    build: Nginx/
+    ports:
+      - "8080:80"
+    depends_on:
+      - app1
+      - app2
